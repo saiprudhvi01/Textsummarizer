@@ -1,7 +1,6 @@
 # app.py
 from __future__ import unicode_literals
 import streamlit as st
-from spacy_loader import nlp  # Import the spaCy model
 
 def main():
     st.title("Text Summarization App")
