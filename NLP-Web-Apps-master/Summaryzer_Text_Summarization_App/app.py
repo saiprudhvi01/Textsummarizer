@@ -1,12 +1,23 @@
+# app.py
+import streamlit as st
+from spacy_loader import nlp  # Import the spaCy model
+
+def main():
+    st.title("Text Summarization App")
+
+    # Your Streamlit app code here
+
+if __name__ == "__main__":
+    main()
+
 from __future__ import unicode_literals
 from flask import Flask,render_template,url_for,request
 
-from spacy_summarization import text_summarizer
+from spacy_summarization import text_summarizer,nlp
 from gensim.summarization import summarize
 from nltk_summarization import nltk_summarizer
 import time
 import spacy
-nlp = spacy.load('en')
 app = Flask(__name__)
 
 # Web Scraping Pkg
