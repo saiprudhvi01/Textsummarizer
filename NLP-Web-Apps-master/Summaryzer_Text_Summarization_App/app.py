@@ -6,12 +6,8 @@ from gensim.summarization import summarize
 from nltk_summarization import nltk_summarizer
 import time
 import spacy
-
-# Web Scraping Pkg
 from bs4 import BeautifulSoup
 import urllib.request
-
-# Sumy Pkg
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
