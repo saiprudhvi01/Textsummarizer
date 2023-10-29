@@ -1,4 +1,5 @@
 # app.py
+from __future__ import unicode_literals
 import streamlit as st
 from spacy_loader import nlp  # Import the spaCy model
 
@@ -10,7 +11,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-from __future__ import unicode_literals
 from flask import Flask,render_template,url_for,request
 
 from spacy_summarization import text_summarizer,nlp
