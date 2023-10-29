@@ -8,4 +8,3 @@ thinc
 urllib3 
 gensim      
 gensim-sum-ext    
-streamlit
