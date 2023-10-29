@@ -3,7 +3,8 @@ bs4
 Flask      
 nltk        
 spacy
-streamlitspacy==3.0.7
+streamlit
+spacy==3.0.7
 en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.0.0/en_core_web_md-3.0.0.tar.gz
 sumy      
 thinc     
