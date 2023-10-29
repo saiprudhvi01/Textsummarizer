@@ -1,15 +1,6 @@
 # app.py
 from __future__ import unicode_literals
 import streamlit as st
-
-def main():
-    st.title("Text Summarization App")
-
-    # Your Streamlit app code here
-
-if __name__ == "__main__":
-    main()
-
 from flask import Flask,render_template,url_for,request
 
 from spacy_summarization import text_summarizer,nlp
